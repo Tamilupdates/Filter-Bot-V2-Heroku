@@ -1,0 +1,25 @@
+{
+    "name": "Filter Bot",
+    "description": "Filter Bot with Heroku Deploy",
+    "keywords": [
+      "telegram"
+    ],
+    "stack": "container",
+    "repository": "https://github.com/Tamilupdates/Filter-Bot-V2-Heroku",
+    "env": {
+        "CONFIG_FILE_URL": {
+            "description": "Config File URL",
+            "required": true
+        },
+        "UTILIS_FILE_URL": {
+            "description": "Utilis File URL",
+            "required": false
+        }
+    },
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "Basic"
+    }
+  }
+}
