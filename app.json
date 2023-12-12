@@ -11,10 +11,6 @@
             "description": "Config File URL",
             "required": true
         },
-        "UTILIS_FILE_URL": {
-            "description": "Utilis File URL",
-            "required": false
-        }
     },
     "formation": {
     "worker": {
